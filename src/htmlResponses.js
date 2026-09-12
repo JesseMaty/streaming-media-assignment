@@ -23,5 +23,4 @@ const getClient3 = (request, response) => {
     getPage(request, response, client3, {"Content-Type": 'text/html'});
 }
 
-
 module.exports = { getIndex, getClient2, getClient3 };
